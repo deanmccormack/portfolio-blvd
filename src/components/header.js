@@ -1,32 +1,36 @@
-import { Link } from "gatsby"
-import PropTypes from "prop-types"
 import React from "react"
+import PropTypes from "prop-types"
+import { Link } from "gatsby"
+import "../css/portfolio-blvd.css"
 
-const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
-  >
+const Header = (props) => (
+  <header className="header">
     <div
       style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
+        display: 'flex',
+        margin: `5px auto`,
       }}
     >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
+      <div>
+        <h1 style={{ margin: 0 }}>
+          <Link
+            to="/"
+            style={{
+              fontFamily: '"Sansumi-ExtraBold", helvetica, verdana, sans-serif',
+              fontSize: `30px`,
+              lineHeight: `43px`,
+              color: `#3A3A3A`,
+              letterSpacing: `0em`,
+              textDecoration: `none`,
+            }}
+          >
+            {props.siteTitle}
+          </Link>
+        </h1>
+      </div>
+      <div>
+        {props.children}
+      </div>
     </div>
   </header>
 )
