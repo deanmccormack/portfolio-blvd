@@ -47,7 +47,7 @@ const RecentPaintings = () => {
   )
 
   const getContent = () => (isLightBoxVisible
-      ? getImageGallery()
+      ? getImageGallery(allFile, isLightBoxVisible, setLightboxVisible)
       : getMainContent()
   )
 
