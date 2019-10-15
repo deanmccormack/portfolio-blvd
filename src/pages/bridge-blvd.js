@@ -30,7 +30,9 @@ const BridgeBlvd = () => (
         aute anim export eram velit magna fugiat export multos quid veniam nisi aliqua
         quis</p>
 
-        <button>Launch</button>
+        <button onClick={
+          (e) => {e.preventDefault(); window.open('https://heuristic-johnson-16785e.netlify.com/');}
+        }>Launch</button>
 
       </section>
     </article>
