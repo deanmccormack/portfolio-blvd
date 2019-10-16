@@ -128,7 +128,7 @@ const  LargeLightBoxGallery = function LargeLightBoxGallery(props) {
         <div style={flexBegin}>
           <PrevButton {...props} />
         </div>
-        <div style={{flexBasis: '38%'}}>
+        <div style={{flex: '.5'}}>
           <LightBoxImageContainer {...props} />
         </div>
         <div style={flexEnd}>
