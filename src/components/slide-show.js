@@ -49,7 +49,7 @@ const CloseButton = function CloseButton(props) {
 }
 
 const ImageContainer = function ImageContainer(props) {
-  console.dir(props.node)
+
   return (
     <div>
       <div style={{
@@ -123,9 +123,9 @@ const  LargeLightBoxGallery = function LargeLightBoxGallery(props) {
       : props.childImageSharp.fluid
 
     return aspectRatio > 1.3
-      ? '68%' : aspectRatio > .95
-        ? '55%' : aspectRatio > .7
-          ? '46%' : '36%'
+      ? '56%' : aspectRatio > .95
+        ? '46%' : aspectRatio > .7
+          ? '38%' : '30%'
   }
 
   return (
