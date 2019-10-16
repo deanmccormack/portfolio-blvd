@@ -35,7 +35,7 @@ const PastPaintings = () => {
     <>
     <SEO title="Recent Paintings" />
     <article>
-      <h3>Past Paintings</h3>
+      <h3>Past Paintings (1990 - 2004)</h3>
       <section>
         {getImageGallery(allFile, isLightBoxVisible, setLightboxVisible)}
         <p>sunt quem elit aliqua dolore export aliqua aliqua nisi sunt tempor malis amet

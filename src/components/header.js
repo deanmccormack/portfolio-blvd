@@ -8,10 +8,11 @@ const Header = (props) => (
     <div
       style={{
         display: 'flex',
+        alignItems: 'center',
         margin: `5px auto`,
       }}
     >
-      <div>
+      <div style={{width: '100%'}}>
         <h1 style={{ margin: 0 }}>
           <Link
             to="/"
