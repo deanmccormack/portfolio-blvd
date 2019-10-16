@@ -117,18 +117,28 @@ const  LargeLightBoxGallery = function LargeLightBoxGallery(props) {
     margin: '1% 2%',
   }
 
+  const getFlexBasis = () => {
+    const { aspectRatio } = props.node
+      ? props.node.childImageSharp.fluid
+      : props.childImageSharp.fluid
+
+    return aspectRatio > 1.3
+      ? '68%' : aspectRatio > .95
+        ? '55%' : aspectRatio > .7
+          ? '46%' : '36%'
+  }
+
   return (
     <>
       <div style={flexEnd}><CloseButton handleClose={props.closeLightBox}/></div>
       <div style={{
         display: 'flex',
         justifyContent: 'space-between',
-        height: '94%',
         }}>
         <div style={flexBegin}>
           <PrevButton {...props} />
         </div>
-        <div style={{flex: '.5'}}>
+        <div style={{flexBasis: getFlexBasis()  }}>
           <LightBoxImageContainer {...props} />
         </div>
         <div style={flexEnd}>

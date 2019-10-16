@@ -19,7 +19,7 @@ const RecentPaintings = () => {
               id
               name
               childImageSharp {
-                fluid(maxWidth: 600) {
+                fluid(maxHeight: 600) {
                   ...GatsbyImageSharpFluid_withWebp_tracedSVG
                 }
               }
