@@ -123,9 +123,9 @@ const  LargeLightBoxGallery = function LargeLightBoxGallery(props) {
       : props.childImageSharp.fluid
 
     return aspectRatio > 1.3
-      ? '56%' : aspectRatio > .95
-        ? '46%' : aspectRatio > .7
-          ? '38%' : '30%'
+      ? '52%' : aspectRatio > .95
+        ? '42%' : aspectRatio > .7
+          ? '35%' : '28%'
   }
 
   return (
