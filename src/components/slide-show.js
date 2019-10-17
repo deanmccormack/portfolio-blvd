@@ -1,6 +1,6 @@
 import React, { useState } from "react"
 
-import { getIsFullScreenLayout } from "./layout"
+import { getIsFullScreenLayout, getIsPortrait } from "./layout"
 
 import Img from "gatsby-image"
 
@@ -36,7 +36,7 @@ const PrevButton = function PrevButton(props) {
 const NextButton = function NextButton(props) {
   return (
     <button title="next" className="nav__button" onClick={() => props.handleNext()}>
-      <span className="next-arrow slide-nav__arrow"></span></button>
+      <span aria-label="Next" className="next-arrow slide-nav__arrow"></span></button>
   )
 }
 
@@ -122,10 +122,11 @@ const  LargeLightBoxGallery = function LargeLightBoxGallery(props) {
       ? props.node.childImageSharp.fluid
       : props.childImageSharp.fluid
 
-    return aspectRatio > 1.3
-      ? '52%' : aspectRatio > .95
-        ? '42%' : aspectRatio > .7
-          ? '35%' : '28%'
+    return getIsPortrait()
+      ? '74%' : aspectRatio > 1.3
+        ? '54%' : aspectRatio > .95
+          ? '40%' : aspectRatio > .7
+            ? '33%' : '26%'
   }
 
   return (

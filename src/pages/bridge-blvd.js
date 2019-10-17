@@ -12,26 +12,20 @@ const BridgeBlvd = () => (
       <h3>Bridge Blvd.</h3>
       <section style={{maxWidth: '700px'}}>
 
-        <p>sunt quem elit aliqua dolore export aliqua aliqua nisi sunt tempor malis amet
-        esse esse cillum quid irure illum quae illum veniam summis nulla dolor culpa
-        aute anim export eram velit magna fugiat export multos quid veniam nisi aliqua
-        quis</p>
+        <p></p>
 
         <div className='float-image-container'>
           <AppLaunchImage />
         </div>
 
-        <p>sunt quem elit aliqua dolore export aliqua aliqua nisi sunt tempor malis amet
-        esse esse cillum quid irure illum quae illum veniam summis nulla dolor culpa
-        aute anim export eram velit magna fugiat export multos quid veniam nisi aliqua
-        quis</p>
-        <p>sunt quem elit aliqua dolore export aliqua aliqua nisi sunt tempor malis amet
-        esse esse cillum quid irure illum quae illum veniam summis nulla dolor culpa
-        aute anim export eram velit magna fugiat export multos quid veniam nisi aliqua
-        quis</p>
+        <p></p>
+        <p></p>
 
-        <button onClick={
-          (e) => {e.preventDefault(); window.open('https://heuristic-johnson-16785e.netlify.com/');}
+        <button
+          className="launch-btn"
+          title="Opens Bridge Blvd app in new tab" 
+          onClick={
+            (e) => {e.preventDefault(); window.open('https://heuristic-johnson-16785e.netlify.com/');}
         }>Launch</button>
 
       </section>

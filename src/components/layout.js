@@ -18,6 +18,11 @@ import "../css/portfolio-blvd.css"
 
 const FULL_SCREEN_WIDTH = '768';
 
+export const getIsPortrait = function getIsPortrait() {
+  return typeof window !== `undefined`
+    ? window.innerHeight > window.innerWidth : false  
+}
+
 export const getIsFullScreenLayout = function getIsFullScreenLayout() {
   return typeof document !== `undefined`
     ? document.body.clientWidth >= FULL_SCREEN_WIDTH : false

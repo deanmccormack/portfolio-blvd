@@ -38,10 +38,6 @@ const PastPaintings = () => {
       <h3>Past Paintings (1990 - 2004)</h3>
       <section>
         {getImageGallery(allFile, isLightBoxVisible, setLightboxVisible)}
-        <p>sunt quem elit aliqua dolore export aliqua aliqua nisi sunt tempor malis amet
-          esse esse cillum quid irure illum quae illum veniam summis nulla dolor culpa
-          aute anim export eram velit magna fugiat export multos quid veniam nisi aliqua
-          quis</p>
       </section>
      </article>
     </>
