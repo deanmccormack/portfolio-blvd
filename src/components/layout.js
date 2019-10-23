@@ -16,11 +16,11 @@ import SideBar from "./sidebar"
 import "./layout.css"
 import "../css/portfolio-blvd.css"
 
-const FULL_SCREEN_WIDTH = '768';
+const FULL_SCREEN_WIDTH = '770';
 
 export const getIsPortrait = function getIsPortrait() {
   return typeof window !== `undefined`
-    ? window.innerHeight > window.innerWidth : false  
+    ? window.innerHeight > window.innerWidth : false
 }
 
 export const getIsFullScreenLayout = function getIsFullScreenLayout() {
