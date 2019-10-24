@@ -20,7 +20,7 @@ const BridgeBlvd = () => (
       </section>
       <section>
         <h6>Personal Project</h6>
-        <p>If thing A only needs to be 50% complete, to get thing B to 90% complete.
+        <p>If thing A only needs to be 50% complete; to get thing B to 90% complete.
           Is it good enough? Wouldn&apos;t be cool if thing C did action D? ... (see personal project)
         </p>
       </section>
