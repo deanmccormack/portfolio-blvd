@@ -30,7 +30,8 @@ const BridgeBlvd = () => (
         </section>
         <section>
           <h6>Up Next</h6>
-          <li>Generate a bidding cheat sheet for the configured bid system</li>
+          <ol>  
+            <li>Generate a bidding cheat sheet for the configured bid system</li>
             <li>Add SAYC</li>
             <li>When bidding take vulnerability, rubber strategy into account.</li>
             <li>fix bugs in tablet display</li>
