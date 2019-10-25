@@ -11,33 +11,33 @@ const BridgeBlvd = () => (
     <article>
       <h3>Bridge Blvd.</h3>
       <section style={{maxWidth: '700px'}}>
-      <div className='float-image-container'>
-        <AppLaunchImage />
-      </div>
-      <section>
-        <h6>WIP - Work in Progress</h6>
-        <p>Currently working towards some visualized end. (see goal) </p>
-      </section>
-      <section>
-        <h6>Personal Project</h6>
-        <p>If thing A only needs to be 50% complete; to get thing B to 90% complete.
-          Is it good enough? Wouldn&apos;t be cool if thing C did action D? ... (see personal project)
-        </p>
-      </section>
-      <section>
-        <h6>Goal</h6>
-        <p>Build a self-generating Rubber Bridge tutorial.</p>
-      </section>
-      <section>
-        <h6>Up Next</h6>
-        <p>
-          <ol>
-            <li>Generate a bidding cheat sheet for the configured bid system</li>
+        <div className='float-image-container'>
+          <AppLaunchImage />
+        </div>
+        <section>
+          <h6>WIP - Work in Progress</h6>
+          <p>Currently working towards some visualized end. (see goal) </p>
+        </section>
+        <section>
+          <h6>Personal Project</h6>
+          <p>If thing A only needs to be 50% complete; to get thing B to 90% complete.
+            Is it good enough? Wouldn&apos;t be cool if thing C did action D? ... (see personal project)
+          </p>
+        </section>
+        <section>
+          <h6>Goal</h6>
+          <p>Build a self-generating Rubber Bridge tutorial.</p>
+        </section>
+        <section>
+          <h6>Up Next</h6>
+          <li>Generate a bidding cheat sheet for the configured bid system</li>
             <li>Add SAYC</li>
+            <li>When bidding take vulnerability, rubber strategy into account.</li>
             <li>fix bugs in tablet display</li>
+            <li>PWA</li>
+            <li>add an updates seciton here</li>
             <li>way out... complete card play</li>
           </ol>
-        </p>
         </section>
 
         <button
