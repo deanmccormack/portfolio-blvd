@@ -21,8 +21,10 @@ const BridgeBlvd = () => (
         <section>
           <h6>Personal Project</h6>
           <p>If thing A only needs to be 50% complete; to get thing B to 90% complete.
-            Is it good enough? Wouldn&apos;t be cool if thing C did action D? ... (see personal project)
+          Is it good enough? Wouldn&apos;t be cool if thing C did action D? ... (see personal project.)
+          </p><p>Or, it&apos;s all minimal incremental recursion until (see goal.)
           </p>
+
         </section>
         <section>
           <h6>Goal</h6>
@@ -30,14 +32,19 @@ const BridgeBlvd = () => (
         </section>
         <section>
           <h6>Up Next</h6>
-          <ol>  
-            <li>Generate a bidding cheat sheet for the configured bid system</li>
-            <li>Add SAYC</li>
-            <li>When bidding take vulnerability, rubber strategy into account.</li>
-            <li>fix bugs in tablet display</li>
-            <li>PWA</li>
-            <li>add an updates seciton here</li>
-            <li>way out... complete card play</li>
+          <ol>
+          <li>Just added Darl Mode; still tweaking shades and tints</li>
+          <li>Generate a bidding cheat sheet for the configured bid system</li>
+          <li>Add SAYC</li>
+          <li>Accessibility</li>
+          <li>When bidding take vulnerability, rubber strategy into account.</li>
+          <li>improve bid hints, more why not to bid...</li>
+          <li>fix ui bugs stacking issue, tablet display...</li>
+          <li>UI testing</li>
+          <li>export/import my local storage saved/test deals and add to the preloadded deals menu</li>
+          <li>PWA</li>
+          <li>add an updates seciton here</li>
+          <li>way out... complete card play</li>
           </ol>
         </section>
 
