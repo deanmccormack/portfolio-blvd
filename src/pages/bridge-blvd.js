@@ -33,18 +33,21 @@ const BridgeBlvd = () => (
         <section>
           <h6>Up Next</h6>
           <ol>
-          <li>Just added Darl Mode; still tweaking shades and tints</li>
-          <li>Generate a bidding cheat sheet for the configured bid system</li>
-          <li>Add SAYC</li>
-          <li>Accessibility</li>
-          <li>When bidding take vulnerability, rubber strategy into account.</li>
-          <li>improve bid hints, more why not to bid...</li>
-          <li>fix ui bugs stacking issue, tablet display...</li>
-          <li>UI testing</li>
-          <li>export/import my local storage saved/test deals and add to the preloadded deals menu</li>
-          <li>PWA</li>
-          <li>add an updates seciton here</li>
-          <li>way out... complete card play</li>
+            <li>Add a first time view splash screen with a what&apos;s up/state of the App summary</li>
+            <li>Just added Dark Mode; still tweaking shades and tints</li>
+            <li>Working on the bid components, improving the hints, and UX</li>
+            <li>Generate a bidding cheat sheet for the configured bid system</li>
+            <li>Add SAYC</li>
+            <li>Accessibility</li>
+            <li>When bidding take vulnerability, rubber strategy into account.</li>
+            <li>improve bid hints, add more why not to bid...</li>
+            <li>fix ui bugs stacking issue, tablet display...</li>
+            <li>UI testing</li>
+            <li>Add hand invaluation animations</li>
+            <li>export/import my local storage saved/test deals and add to the preloadded deals menu</li>
+            <li>PWA</li>
+            <li>add an updates seciton here</li>
+            <li>way out... complete card play</li>
           </ol>
         </section>
 
