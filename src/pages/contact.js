@@ -25,7 +25,7 @@ const ContactPage = () => (
   <Layout>
     <SEO title="Contact" />
     <h1>Contact</h1>
-    <p><a href={`mailto:${"deanmccormack@gmail.com"}`}>deanmccormack@gmail.com</a></p>
+    <p><a href={`mailto:${"deanmccormack@gmail.com" }`}>deanmccormack@gmail.com</a></p>
     <div style={{ marginBottom: `1.45rem` }}>
       <PageImage />
     </div>

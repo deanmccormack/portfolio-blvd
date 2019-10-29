@@ -30,6 +30,7 @@ article {
   float: left;
   padding: 0 1rem 0 0;
   width: 220px;
+  cursor: pointer;
 }
 
 .wrapper {

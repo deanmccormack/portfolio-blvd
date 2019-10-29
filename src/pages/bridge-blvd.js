@@ -5,13 +5,18 @@ import SEO from "../components/seo"
 
 import AppLaunchImage from "../components/app-launch-image"
 
+export const launchAppClick = (e) => {
+  e.preventDefault();
+  window.open('https://heuristic-johnson-16785e.netlify.com/')
+};
+
 const BridgeBlvd = () => (
   <Layout>
     <SEO title="Bridge-Blvd" />
     <article>
       <h3>Bridge Blvd.</h3>
       <section style={{maxWidth: '700px'}}>
-        <div className='float-image-container'>
+        <div title="Launch Bridge Blvd. App" onClick={(e) => launchAppClick(e)} className='float-image-container'>
           <AppLaunchImage />
         </div>
         <section>
@@ -54,9 +59,7 @@ const BridgeBlvd = () => (
         <button
           className="launch-btn"
           title="Opens Bridge Blvd app in new tab"
-          onClick={
-            (e) => {e.preventDefault(); window.open('https://heuristic-johnson-16785e.netlify.com/');}
-        }>Launch</button>
+          onClick={launchAppClick}>Launch</button>
 
       </section>
     </article>
