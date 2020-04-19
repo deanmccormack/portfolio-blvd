@@ -7,7 +7,7 @@ const NotPhotograpy = () => (
   <Layout>
     <SEO title="Not Photograpy" />
     <h3>Not Photograpy</h3>
-    <p>Coming Soon...</p>
+    <p>Coming Soon...really!</p>
   </Layout>
 )
 
